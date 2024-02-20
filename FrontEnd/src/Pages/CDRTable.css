@@ -1,0 +1,188 @@
+#data-table {
+  width: 100%;
+  border-collapse: collapse;
+  height: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  
+}
+
+#data-table th, #data-table td {
+  text-align: center;
+  border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+#data-table th:first-child {
+  border-top-left-radius: 10px;
+}
+#data-table th:last-child {
+  border-top-right-radius: 10px;
+}
+tbody{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  
+}
+tbody tr{
+  height:30px;
+  font-size: 0.9rem;
+  color:#535353;
+}
+thead th {
+
+  color: white;
+  background-color: #575796;
+}
+thead{
+  height: 30px;
+    position: sticky;
+  top: 0;
+ 
+}
+.btn-pagina{
+  background: none;
+  border: none;
+  cursor:pointer;
+  color:rgb(80, 80, 80);
+}
+td span, td a{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 8%;
+}
+th span{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 8%;
+}
+
+input[type="date"] {
+  background-color: white;
+  padding: 10px;
+  font-family: "Roboto Mono", monospace;
+  color: black;
+  font-size: 14px;
+  margin: 1%;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 8px;
+  box-sizing: border-box;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+::-webkit-calendar-picker-indicator {
+  background-color: #ffffff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.date-label {
+  display: inline;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #464646;
+  font-size: 0.9rem;
+}
+select {
+  height: 35px;
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+select::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  background: url('url_to_your_custom_icon') no-repeat;
+  background-size: contain;
+  padding-right: 5px;
+}
+select:focus {
+  border-color: blue;
+  outline: none;
+}
+input[type="text"] {
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
+  margin-right: 10px;
+}
+input[type="text"]:focus {
+  border-color: blue;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  outline: none;
+}
+#add-filter-div{
+  height: 30px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+
+}
+.btn-handle-filter{
+  color:lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  height: 25px;
+  width: 25px;
+  box-shadow: 1px 1px lawngreen;
+  cursor: pointer;
+  background: none;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.btn-handle-filter:disabled{
+  color: gray;
+  box-shadow: 1px 1px gray;
+  cursor: default;
+}
+.btn-handle-filter:disabled:hover{
+background: none;
+}
+.btn-handle-filter:hover{
+  background-color: rgba(172, 224, 167, 0.281);
+}
+.btn-delete-filter{
+  color:red;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+
+
+

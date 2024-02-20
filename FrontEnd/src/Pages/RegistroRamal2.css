@@ -1,0 +1,213 @@
+*{
+    font-family: 'Istok Web', sans-serif;
+}
+#main-ramais{
+    width: 100%;
+    height:100%;
+    overflow-y: auto;
+}
+#filter-input{
+    margin-bottom: 30px;
+    margin-left: 10px;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.empresa-container{ 
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+}
+.empresa-navbar{
+    width: 100%;
+    height: 60px;
+    border-radius: 15px 15px 0px 0px;
+    -webkit-border-radius: 15px 15px 0px 0px;
+    -moz-border-radius: 15px 15px 0px 0px;
+    -ms-border-radius: 15px 15px 0px 0px;
+    -o-border-radius: 15px 15px 0px 0px;
+    box-sizing: border-box;
+    display: flex;
+
+
+}
+.empresa-title{
+    flex:3;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding:2%;
+    box-sizing: border-box;
+}
+
+.empresa-title h2{
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: 'Istok Web', sans-serif;
+}
+.ramais-filters{
+    flex:8;
+    height: 100%;
+    display: flex;
+    align-items:end;
+    box-sizing: border-box;
+}
+.ramais-filters input{
+    width: 250px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.empresa-bottom{
+    display: flex;
+    width: 100%;
+    height: calc(100% - 60px);
+    border-radius: 0px 0px 15px 15px;
+    -webkit-border-radius: 0px 0px 15px 15px;
+    -moz-border-radius: 0px 0px 15px 15px;
+    -ms-border-radius: 0px 0px 15px 15px;
+    -o-border-radius: 0px 0px 15px 15px;
+}
+.empresa-sidebar{
+    flex:3;
+    height: 100%;
+    border-radius: 0px 0px 0px 15px;
+    -webkit-border-radius: 0px 0px 0px 15px;
+    -moz-border-radius: 0px 0px 0px 15px;
+    -ms-border-radius: 0px 0px 0px 15px;
+    -o-border-radius: 0px 0px 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    box-sizing: border-box;
+}
+.register-form{
+    height: 100%;
+    width: 100%;
+}
+.register-form h1{
+    width: 100%;
+    color: black;
+    border-bottom: 1px solid rgb(87, 87, 87);
+    margin-bottom:10px;
+}
+.register-form input{
+    width: 90%;
+    margin-bottom: 20px;
+}
+.ramais-container{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.btn-add{
+    width: 40%;
+    height: 40px;
+    background-color: green;
+    color:white;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: 1px solid rgb(79, 141, 87);
+    cursor: pointer;
+    margin-bottom:20px;
+}
+.btn-delete{
+    width: 40%;
+    height: 40px;
+    background-color: red;
+    color:white;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: 1px solid rgb(105, 15, 15);
+    cursor: pointer;
+    margin-right: 10px;
+}
+.btn-add-ramais{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(54, 132, 206);
+    color:white;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: 1px solid rgb(43, 24, 209);
+    cursor: pointer;
+    margin-bottom:20px;
+}
+.empresa-ramais-parent{
+    padding:1.5%;
+    box-sizing: border-box;
+    flex:8;
+    height: 100%;
+}
+.empresa-ramais{
+    border:2px dashed rgb(206, 206, 206);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    -webkit-border-radius: 10px 0px 0px 10px;
+    -moz-border-radius: 10px 0px 0px 10px;
+    -ms-border-radius: 10px 0px 0px 10px;
+    -o-border-radius: 10px 0px 0px 10px;
+    display: grid;
+    overflow-y: auto;
+    padding:10px;
+    gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+.ramal-numero{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    height: 40px;
+    width: fit-content;
+    background-color: rgb(228, 192, 127);
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding:10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.btn-trash{
+    background: none;
+    border: none;
+    margin: 0;
+    color:rgb(155, 17, 17);
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+

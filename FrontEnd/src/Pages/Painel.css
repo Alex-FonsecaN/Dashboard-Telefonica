@@ -1,0 +1,128 @@
+
+#main-div-painel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    overflow-y: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#painel-geral{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+}
+h1{
+    color:rgb(207, 207, 207);
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding:2%;
+    flex:1;
+    margin: 0;
+}
+#painel-ramais {
+    flex:10;
+    background-color: #DEE4FA;
+    padding: 2%;
+  }
+  #grid-ramais{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 6px;
+  }
+  .div-ramal {
+    /*Estilosparasuasdivsderamal*/border: 1px solid #ccc;
+    height: 60px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    padding:2%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+}
+  .ramal-info{
+    height: 100%;
+    flex:1;
+    color:rgb(79, 160, 187);
+  }
+  .extra-info-div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35, 127, 180, 0.97);
+    left: 15px;
+    top:15px;
+    z-index: 1;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding:2%;
+}
+.extra-info-div span{
+  width: 100%;
+  height: 100%;
+  font-size: 0.7rem;
+
+}
+  .ramal-activity{
+    height: 100%;
+    flex:5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 0.7rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+  }
+  .ramal-icon{
+    height: 100%;
+    flex:1;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #loading-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  .div-ramal-ok{
+    background-color: orange;
+  }
+  .div-ramal-not-ok{
+    background-color: #FFEEB8;
+  }
+  .span-timer{
+    color:blue;
+  }
+
+  

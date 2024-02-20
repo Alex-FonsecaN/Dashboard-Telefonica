@@ -1,0 +1,26 @@
+{
+  "name": "projeton1web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asterisk-ami-client": "^1.1.5",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "flatted": "^3.2.9",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.5",
+    "node-ssh": "^13.1.0",
+    "socket.io": "^4.7.4",
+    "ssh2": "^1.15.0"
+  }
+}

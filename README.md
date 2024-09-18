@@ -1,6 +1,6 @@
 # Dashboard-Telefonica
 
- Este projeto, representa um painel para que o cliente de uma empresa de telefonia, possa visualizar ramais ativos , ligações e informações das chamadas telefonicas de sua empresa. Este projeto eu fiz por uma empresa e está completamente apagado _(por segurança)_ e não funcional, apenas para demonstrar um pouco da estrutura.
+ Este projeto, representa um painel para que o cliente de uma empresa de telefonia, possa visualizar ramais ativos , ligações e informações das chamadas telefonicas de sua empresa. O projeto está completamente apagado e não funcional, apenas para demonstrar um pouco da estrutura de como o original foi feito.
 
  (A versão apresentada também apresenta um projeto antigo, já não representa a forma com que o projeto se parece em sua última versão)
 
